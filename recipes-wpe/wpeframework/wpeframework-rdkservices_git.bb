@@ -5,12 +5,10 @@ PR = "r1"
 
 require include/wpeframework-plugins.inc
 
-SRC_URI = "git://github.com/rdkcentral/rdkservices.git;protocol=git;branch=sprint/2010 \
-           file://0001-monitor-Enable-monitored-plugins-when-built-from-ext.patch \
-           file://0002-Add-FindMFRFWLibs.patch \
+SRC_URI = "git://github.com/rdkcentral/rdkservices.git;protocol=git;branch=sprint/2101 \
 "
 
-SRCREV = "6fddde4f6a596624886abd44dafcffb01418bcb7"
+SRCREV = "6eccc459a421e73c42d72d68c411fce6354b4d3e"
 
 # ----------------------------------------------------------------------------
 
