@@ -1,0 +1,10 @@
+diff --git a/Monitor/Monitor.config b/Monitor/Monitor.config
+index af6fb97..6a453ff 100644
+--- a/Monitor/Monitor.config
++++ b/Monitor/Monitor.config
+@@ -1,4 +1,5 @@
+ set (autostart true)
++set(preconditions Time)
+ 
+ map()
+ end()

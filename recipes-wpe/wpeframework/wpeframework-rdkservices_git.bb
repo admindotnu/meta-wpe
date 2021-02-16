@@ -5,12 +5,14 @@ PR = "r1"
 
 require include/wpeframework-plugins.inc
 
-SRC_URI = "git://github.com/rdkcentral/rdkservices.git;protocol=git;branch=sprint/2010 \
-           file://0001-monitor-Enable-monitored-plugins-when-built-from-ext.patch \
-           file://0002-Add-FindMFRFWLibs.patch \
+SRC_URI = "git://github.com/rdkcentral/rdkservices.git;protocol=git;branch=sprint/2101 \
+           file://0001-LocationSync-LongLatitude-updates.patch \
+           file://0001-Monitor-Add-Time-in-preconditionlist.patch \
+           file://0001-WebKitBrowser-CollectGarbageSupport.patch \
+           file://0002-Monitor-ServiceInterface-updates.patch \
 "
 
-SRCREV = "6fddde4f6a596624886abd44dafcffb01418bcb7"
+SRCREV = "7d4b498e4b6bfb77bf42a21ce71ab6e436a43cbc"
 
 # ----------------------------------------------------------------------------
 
