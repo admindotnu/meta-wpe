@@ -6,7 +6,7 @@ PV = "3.0+git${SRCPV}"
 S = "${WORKDIR}/git"
 
 SRC_URI = "git://github.com/rdkcentral/Thunder.git;protocol=git;branch=master"
-SRCREV = "d388501fa554f9aad603f21f382724d1a1b041ca"
+SRCREV = "2a0c10bb85933e3b7b8073e31c3bac41755b0cd7"
 
 SRC_URI[md5sum] = "42b518b9ccd6852d1d709749bc96cb70"
 SRC_URI[sha256sum] = "f3c45b121cf6257eafabdc3a8008763aed1cd7da06dbabc59a9e4d2a5e4e6697"
