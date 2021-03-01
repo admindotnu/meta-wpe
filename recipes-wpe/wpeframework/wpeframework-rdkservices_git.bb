@@ -6,9 +6,13 @@ PR = "r1"
 require include/wpeframework-plugins.inc
 
 SRC_URI = "git://github.com/rdkcentral/rdkservices.git;protocol=git;branch=sprint/2101 \
+           file://0001-LocationSync-LongLatitude-updates.patch \
+           file://0001-Monitor-Add-Time-in-preconditionlist.patch \
+           file://0001-WebKitBrowser-CollectGarbageSupport.patch \
+           file://0002-Monitor-ServiceInterface-updates.patch \
 "
 
-SRCREV = "6eccc459a421e73c42d72d68c411fce6354b4d3e"
+SRCREV = "7d4b498e4b6bfb77bf42a21ce71ab6e436a43cbc"
 
 # ----------------------------------------------------------------------------
 
