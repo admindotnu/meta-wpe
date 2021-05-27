@@ -6,13 +6,13 @@ PR = "r1"
 require include/wpeframework-plugins.inc
 
 SRC_URI = "\
-git://github.com/rdkcentral/ThunderNanoServices.git;protocol=git;branch=master \
+git://github.com/rdkcentral/ThunderNanoServices.git;protocol=git;branch=development/streamer-cleanup \
     file://index.html \
     file://osmc-devinput-remote.json \
     file://0001-westeros-preload-libwesteros_gl.so.0.0.0.patch \
 "
 
-SRCREV = "4fb9cd13bfb4a953397003a6eed6582e1a4a14e0"
+SRCREV = "c87a5b52011082ccd67a322e330f3cf84bdd5d4b"
 # ----------------------------------------------------------------------------
 
 # More complicated plugins are moved seperate includes
@@ -38,6 +38,7 @@ include include/processmonitor.inc
 include include/remotecontrol.inc
 include include/resourcemonitor.inc
 include include/snapshot.inc
+include include/streamer.inc
 include include/svalbard.inc
 include include/systemcommands.inc
 include include/systemdconnector.inc
