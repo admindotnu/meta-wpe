@@ -3,7 +3,7 @@ HOMEPAGE = "https://github.com/rdkcmf/rdk-gst-plugins-rdk-aamp"
 LICENSE = "LGPLv2.1+"
 LIC_FILES_CHKSUM = "file://COPYING.LGPL;md5=2a626f155f0a604febb7d0fc6b0611af"
 
-DEPENDS = "aamp gstreamer1.0 gstreamer1.0-plugins-base"
+DEPENDS = "aamp gstreamer1.0 gstreamer1.0-plugins-base wpeframework-clientlibraries"
 
 PV = "0.1.gitr${SRCPV}"
 
@@ -21,3 +21,4 @@ FILES_${PN} = "${libdir}/gstreamer-1.0/libgstaamp.so"
 
 # Fixme, something is pointing to a non-symlink and that pulls in -dev packages
 INSANE_SKIP_${PN} = "dev-deps"
+
