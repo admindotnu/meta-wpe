@@ -18,3 +18,4 @@ FILES_${PN} = "${libdir}/gstreamer-1.0/libgstcencdecrypt.so"
 
 # Fixme, something is pointing to a non-symlink and that pulls in -dev packages
 INSANE_SKIP_${PN} = "dev-deps"
+
